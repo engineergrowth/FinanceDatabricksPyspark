@@ -1,6 +1,6 @@
 # Financial Data Notebook with PySpark and Databricks
 
-This project demonstrates a financial data pipeline built with PySpark and Databricks. The notebook is designed to fetch, process, and transform historical stock data for multiple tickers, storing the results in Delta tables for further analysis.
+This project demonstrates a small financial data pipeline built with PySpark and Databricks. The notebook is designed to fetch, process, and transform historical stock data for multiple tickers, storing the results in Delta tables for further analysis.
 
 ## Overview
 
