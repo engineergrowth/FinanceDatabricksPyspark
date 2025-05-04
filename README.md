@@ -21,25 +21,6 @@ The pipeline fetches 5 years of stock data from a public API for multiple ticker
    - Perform calculations and generate new metrics.
    - Aggregate data by year for high-level analysis.
 3. **Load**: Save processed datasets into Delta tables in staging and analytics schemas for further exploration.
-
-## Folder Structure
-
-- **Raw Data**: Contains the unprocessed stock data fetched from the API.
-- **Staging Tables**: Includes transformed datasets ready for further analysis.
-- **Analytics Tables**: Contains yearly aggregated data for visualization or reporting.
-
-## How It Works
-
-1. **Data Extraction**: The pipeline fetches stock data using API calls, collecting 5 years of historical data for specified tickers.
-2. **Data Transformation**: Using PySpark, the pipeline calculates daily metrics, rolling averages, and yearly aggregations. 
-3. **Data Storage**: The cleaned and transformed data is stored in Delta tables for efficient querying and analysis.
-
-## Tools and Technologies
-
-- **Databricks**: For orchestrating the pipeline and managing datasets.
-- **PySpark**: To handle transformations and large-scale data processing.
-- **Delta Lake**: For optimized storage and query performance.
-- **APIs**: To fetch historical stock data.
   
 ## How to Run
 
